@@ -1,0 +1,442 @@
+
+  * {
+    font-family: 'Arvo', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* color*/
+header, footer {
+    background: #2b2f77;
+background: rgb(18,42,88);
+background: radial-gradient(circle, rgba(18,42,88,1) 0%, rgba(57,89,135,1) 36%, rgba(57,105,168,1) 52%, rgba(22,98,191,1) 74%, rgba(0,117,255,1) 100%);
+}
+
+/*header*/
+header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+    
+}
+
+nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+
+.secondary-text, .link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.main-info {
+    display: flex;
+    padding: 6em 0;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.info {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    width: 150px;
+    height: 60px;
+}
+
+.image {
+    background-color: white;
+    width: auto;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+    box-shadow: 1px 3px 23px 3px rgba(0,0,0,0.35);
+-webkit-box-shadow: 1px 3px 23px 3px rgba(0,0,0,0.35);
+-moz-box-shadow: 1px 3px 23px 3px rgba(0,0,0,0.35);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+
+/*main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    
+}
+
+.cuadrado {
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    border: 4px solid rgba(22,98,191,1);
+    
+
+}
+
+.randomimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+}
+
+.images2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    gap: 0.5em;
+}
+
+.images2 > p {
+    color: #5f5f5f;
+    opacity: .4;
+    font-size: 18px;
+    
+}
+
+/* Texto en gris */
+
+.background-gris {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4em 10em;
+}
+
+.txtgris {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+
+}
+
+.gris {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+    margin-top: 36px;
+}
+
+
+/* Final Signup */
+
+.btn-blue {
+    background-color: #3882f6;
+    width: 75%;
+    height: 200px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 12%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-blue {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.title-blue {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.signuptext {
+    font-size: 20px;
+    color: white
+
+}
+
+.btn-98,
+.btn-98 *,
+.btn-98 :after,
+.btn-98 :before,
+.btn-98:after,
+.btn-98:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-98 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+.btn-98:disabled {
+  cursor: default;
+}
+.btn-98:-moz-focusring {
+  outline: auto;
+}
+.btn-98 svg {
+  display: block;
+
+}
+.btn-98 [hidden] {
+  display: none;
+}
+.btn-98 {
+  --thickness: 4px;
+  background: none;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% + var(--thickness)),
+    0 calc(100% + var(--thickness))
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% + var(--thickness)),
+    0 calc(100% + var(--thickness))
+  );
+  display: block;
+  font-weight: 900;
+
+  padding: 2px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-98:before {
+  background: #fff;
+  bottom: calc(var(--thickness) * -1);
+  content: "";
+  display: block;
+  height: var(--thickness);
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+.btn-98:hover:before {
+  -webkit-animation: slide 0.5s ease;
+  animation: slide 0.5s ease;
+}
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  51% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  51% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    height: 75px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOTON ESPECIAL */
+
+.btn-75,
+.btn-75 *,
+.btn-75 :after,
+.btn-75 :before,
+.btn-75:after,
+.btn-75:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-75 {
+  -webkit-tap-highlight-color: transparent;
+  
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+  
+  padding: 0;
+}
+.btn-75:disabled {
+  cursor: default;
+}
+.btn-75:-moz-focusring {
+  outline: auto;
+}
+.btn-75 svg {
+  display: block;
+  
+}
+.btn-75 [hidden] {
+  display: none;
+}
+.btn-75 {
+  background: #e0e5ec;
+  border-radius: 999px;
+  box-shadow: inset 2px 2px 2px 0 hsla(0, 0%, 100%, 0.5),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-75:active {
+  transform: translateY(3px);
+}
+
+
